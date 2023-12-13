@@ -3,7 +3,7 @@
 - **[Introduction](#introduction)**.
 - **[Data Types](#sql-data-types)**.
 - **[Constraints](#constraints)**.
--
+- **[Create Table](#create-table)**.
 -
 -
 -------------------------------------------------------------------------
@@ -125,7 +125,7 @@ Use the following command to delete a table.
         RENAME deptno to dno;
     ```
 ------------------------------------------------------------------
-### Insertion
+#### Insertion
 - INSERT
   
     We can insert into a table using the following command.
