@@ -10,7 +10,7 @@
 - **[Where](#where)**.
 - **[Order By](#order-by)**.
 - **[Group By](#group-by)**.
-- **[Foreign key](#foreign-key).
+- **[Foreign key](#foreign-key)**.
 -------------------------------------------------------------------------
 ### Introduction
 In the past databases didn't exist and they used flat-file and spreadsheets to store data
@@ -457,7 +457,7 @@ ORDER BY SUM(salary);
        ALTER TABLE users
        ADD FOREIGN KEY deptno REFERENCES dept(deptno);
    ```
-
+--------------------------------------------------------
 
   
   
