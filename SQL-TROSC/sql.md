@@ -127,7 +127,7 @@ Use the following command to delete a table.
           rename column
     ```SQL
         ALTER TABLE dept
-        RENAME deptno to dno;
+        RENAME COLUMN deptno to dno;
     ```
 ------------------------------------------------------------------
 #### Insertion
