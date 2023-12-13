@@ -28,7 +28,7 @@ In the earlier days, databases were non-existent, and organizations relied on fl
 - Date
     1. Date 
 > [!NOTE]
-> There are more data types but these are the most famous for your practical exam.
+> There are more data types, but these are the most famous for your practical exam.
 --------------------------------------------------------------------------
 ### Constraints
 - Primary key.
@@ -45,7 +45,7 @@ In the earlier days, databases were non-existent, and organizations relied on fl
     - Column must have data.
 ------------------------------------------------------------------------------
 ### Create Table
-We create a table using the following command
+We create a table using the following command:
 ``` SQL
 CREATE TABLE <table name>(
     column1 datatype constraint,
@@ -68,16 +68,16 @@ CREATE TABLE users(
     age NUMBER(2) CHECK(age > 15)
 );
 ```
-Use the following command to show the table schema.
+Use the following command to show the table schema:
 ``` SQL
     DESCRIBE users;
     DESC users;
 ```
-Use the following command to change a table's name.
+Use the following command to change a table's name:
 ``` SQL
     RENAME dept TO dept1;
 ```
-Use the following command to delete a table.
+Use the following command to delete a table:
 ``` SQL
     DESC dept1; --exists
     DESC dept;  -- doesn't exist
@@ -110,7 +110,7 @@ Use the following command to delete a table.
         MODIFY dname VARCHAR2(20);
     ```
 > [!NOTE]
-> You can increase any column's data type but you can't decrease if it contains data.
+> You can increase any column's data type, but you can't decrease it if it contains data.
 
 > [!NOTE]
 > You can change a column data type if it does not contain data.
@@ -123,6 +123,7 @@ Use the following command to delete a table.
         DROP COLUMN location;
     ```
 - RENAME
+  
           rename column
     ```SQL
         ALTER TABLE dept
@@ -132,9 +133,9 @@ Use the following command to delete a table.
 #### Insertion
 - INSERT
   
-    We can insert it into a table using the following command.
+    We can insert it into a table using the following command:
     ``` SQL
-        INSERT INTO <table name>(columns' names) -- you can use it or not but you don't use columns' names you must enter all columns' data
+        INSERT INTO <table name>(columns' names) -- you can use it or not but if you don't use columns' names you must enter all columns' data
         VALUES(enter data with order of columns);
     ```
     ex:
@@ -274,7 +275,7 @@ NOT    |
     Additional
 - Between
   
-  user to select a range
+  used to select a range
   ``` SQL
       SELECT name FROM users
       WHERE age >= 20 AND age <= 40;
@@ -318,7 +319,7 @@ NOT    |
 #### ORDER BY
 
   use order by clause to sort rows ascending or descending
-  first of all, we need data on users
+  first of all, we need more data in table users
 ```SQL
 ALTER TABLE users
 ADD salary NUMBER(6,2) CHECK(salary>0);
@@ -445,7 +446,7 @@ ORDER BY SUM(salary);
 1. Add constraint
    ```SQL
        ALTER TABLE users
-       ADD FOREIGN KEY deptno REFERENCES dept(deptno);
+       ADD FOREIGN KEY(deptno) REFERENCES dept(deptno);
    ```
 --------------------------------------------------------
 
