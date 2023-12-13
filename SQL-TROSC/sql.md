@@ -133,9 +133,9 @@ Use the following command to delete a table.
 #### Insertion
 - INSERT
   
-    We can insert into a table using the following command.
+    We can insert it into a table using the following command.
     ``` SQL
-        INSERT INTO <table name>(columns' names) -- you can use it or not but you don't use columns' names you must enter all columns data
+        INSERT INTO <table name>(columns' names) -- you can use it or not but you don't use columns' names you must enter all columns' data
         VALUES(enter data with order of columns);
     ```
     ex:
@@ -160,7 +160,7 @@ Use the following command to delete a table.
     ```
 - UPDATE
 
-  Use update to update a row data
+  Use update to update a row of data
   
   ex:
 ``` SQL
@@ -181,7 +181,7 @@ Use the following command to delete a table.
 ```
 - DELETE
 
-  Use delete to delete a row data
+  Use delete to delete a row of data
 
     ``` SQL
         DELETE FROM <table name>
@@ -194,11 +194,11 @@ Use the following command to delete a table.
     ```
 >[!CAUTION]
 > ``` SQL
->     DELETE FROM users; -- will delete all table's data
+>     DELETE FROM users; -- will delete all table data
 > ```
 -------------------------------------------------
 ### SELECT
-    We can you select statemant to show table's data
+    We can use a select statement to show the table's data
 ``` SQL
     SELECT id, name, address, email FROM users;
 ```
@@ -216,7 +216,7 @@ Use the following command to delete a table.
 ``` SQL
     SELECT name "user name" FROM users;
 ```
-    concatination
+    concatenation
 ``` SQL
     SELECT name||email FROM users;
 ```
@@ -230,12 +230,12 @@ Use the following command to delete a table.
     relational operators
 Operator | Name | Operation
 -------------|:-----------:|----------------------------------:
-=         | equals     | check wheather right equals left ex: age = 15
-\>         | greater than | check right greater than left ex : age > 14
-\>=         | greater than or equal     | check wheather right greater than or equals to left ex: age >= 15
-\<         | less than | check right less than left ex : age < 14
-<=         | less than or equal     | check wheather right less than or equals to left ex: age <= 15
-<> or !=   | Not equal    | check wheather right doesn't equal left ex: age != 15 or age age <> 15
+=         | equals     | check whether right equals left ex: age = 15
+\>         | greater than | check right greater than left ex: age > 14
+\>=         | greater than or equal     | check whether right is greater than or equal to left ex: age >= 15
+\<         | less than | check right less than left ex: age < 14
+<=         | less than or equal     | check whether right is less than or equal to left ex: age <= 15
+<> or !=   | Not equal    | check whether right doesn't equal left ex: age != 15 or age age <> 15
 
 ``` SQL
     SELECT name FROM users
@@ -261,7 +261,7 @@ Operator | Name | Operation
 Operator | Operation
 --------:|----------:
 AND    | To conditions must be true to be true ex: age < 40 AND age > 20
-OR     | at least one condition satified ex: age < 40 OR age > 20
+OR     | at least one condition satisfied ex: age < 40 OR age > 20
 NOT    |
 
 ``` SQL
@@ -285,7 +285,7 @@ NOT    |
   ```
 - LIKE
 
-  Undetirmind data
+  Undetermined data
   ``` SQL
   SELECT name FROM users
   WHERE name LIKE 'ahmed%'
@@ -311,15 +311,15 @@ NOT    |
   SELECT Multiple data
   ``` SQL
       SELECT name FROM users
-      WHERE age = 15 OR age = 20 WHERE age = 40;
+      WHERE age = 15 OR age = 20 OR age = 40;
       -- equals to
       SELECT name FROM users
       WHERE age IN(15,20,40);
   ```
 #### ORDER BY
 
-  use order by clause to sort rows ascending or descendign
-  first of all we need data into users
+  use order by clause to sort rows ascending or descending
+  first of all, we need data on users
 ```SQL
 ALTER TABLE users
 ADD salary NUMBER(6,2) CHECK(salary>0);
@@ -407,33 +407,24 @@ WHERE id=8;
     Used to group data with specific column 
      Used with aggregation functions 
 ``` SQL
-SELECT * FROM users
-GROUP BY address;
-```
-``` SQL
-SELECT * FROM users
+SELECT COUNT(name), address FROM users
 WHERE age > 20 AND age < 40;
 GROUP BY address;
 ```
 ``` SQL
-SELECT name, address, SUM(salary) "total salary" FROM users
-WHERE age > 20 AND age < 40;
-GROUP BY address;
-```
-``` SQL
-SELECT name, address, COUNT(name) FROM users
+SELECT COUNT(name), address, SUM(salary) "total salary" FROM users
 WHERE age > 20 AND age < 40;
 GROUP BY address;
 ```
     Having like where but used with GROUP BY as WHERE
 ``` SQL
-SELECT name, address, SUM(salary) FROM users
+SELECT COUNT(name), address, SUM(salary) FROM users
 WHERE age > 20 AND age < 40;
 GROUP BY address;
 HAVING SUM(salary) > 4000;
 ```
 ``` SQL
-SELECT name, address, SUM(salary) FROM users
+SELECT COUNT(name), address, SUM(salary) FROM users
 WHERE age > 20 AND age < 40;
 GROUP BY address;
 HAVING SUM(salary) > 4000;
