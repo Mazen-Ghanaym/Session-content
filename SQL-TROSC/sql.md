@@ -58,7 +58,7 @@ ex:
 ``` SQL
 CREATE TABLE dept(
     dno NUMBER PRIMARY KEY,
-    dname VARCHAR2(10),
+    dname VARCHAR2(10)
 );
 
 CREATE TABLE users(
