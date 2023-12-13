@@ -2,7 +2,7 @@
 ## Outlines
 - **[Introduction](#introduction)**.
 - **[Data Types](#sql-data-types)**.
--
+- **[Constraints](#constraints)**.
 -
 -
 -
@@ -25,4 +25,18 @@ So they came up with the concept of database and RDBMS to reduce data redundancy
     1. Date 
 > [!NOTE]
 > There are more data types but these are the most famous for your practical exam.
-
+--------------------------------------------------------------------------
+### Constraints
+- Primary key.
+    - unique.
+    - Not Null.
+    - Numeric.
+- Foreign key.
+    - Used To connect two tables.
+- Unique.
+    - data can be Null but not Repeated.
+- Check.
+    - Condition -> ex: “check(age > 15)”.
+- Not Null
+    - Column must have data.
+------------------------------------------------------------------------------
