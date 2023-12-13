@@ -1,17 +1,17 @@
 # SQL-TROSC
 ## [Session record](https://cisuezedu.sharepoint.com/:v:/s/TROSE/EY7J0tksjqBCpQLMQejPO4wBHeSwHK5boWNRHT1SG42XsQ)
 ## Outlines
-- **[Introduction](#introduction)**.
-- **[Data Types](#sql-data-types)**.
-- **[Constraints](#constraints)**.
-- **[Create Table](#create-table)**.
-  - **[Alter Table](#alter-table)**.
-  - **[Insert Into](#insertion)**.
-- **[Select](#select)**.
-- **[Where](#where)**.
-- **[Order By](#order-by)**.
-- **[Group By](#group-by)**.
-- **[Foreign key](#foreign-key)**.
+- **[Introduction](#introduction)**
+- **[Data Types](#sql-data-types)**
+- **[Constraints](#constraints)**
+- **[Create Table](#create-table)**
+  - **[Alter Table](#alter-table)**
+  - **[Insert Into](#insertion)**
+- **[Select](#select)**
+- **[Where](#where)**
+- **[Order By](#order-by)**
+- **[Group By](#group-by)**
+- **[Foreign key](#foreign-key)**
 -------------------------------------------------------------------------
 ### Introduction
 In the earlier days, databases were non-existent, and organizations relied on flat-files and spreadsheets to store data. However, this approach proved inefficient, leading to increased data redundancy and a lack of data concurrency. Recognizing these challenges, the concept of databases and Relational Database Management Systems (RDBMS) was introduced. The primary goal was to minimize data redundancy and enhance the ease of data manipulation. To achieve this, the Structured Query Language (SQL) was developed, offering a powerful toolset for creating, reading, updating, and deleting data (CRUD operations)
