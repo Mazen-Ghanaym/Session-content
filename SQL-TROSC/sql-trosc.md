@@ -1,4 +1,5 @@
 # SQL-TROSC
+## [Session record](https://cisuezedu.sharepoint.com/:v:/s/TROSE/EY7J0tksjqBCpQLMQejPO4wBHeSwHK5boWNRHT1SG42XsQ)
 ## Outlines
 - **[Introduction](#introduction)**.
 - **[Data Types](#sql-data-types)**.
@@ -13,16 +14,14 @@
 - **[Foreign key](#foreign-key)**.
 -------------------------------------------------------------------------
 ### Introduction
-In the past databases didn't exist and they used flat-file and spreadsheets to store data
-but this is not efficient and there are more data redundancy and leak of data concurrency.
-So they came up with the concept of database and RDBMS to reduce data redundancy and make it easier to manipulate data. They developed SQL(structure query language) to facilitate manipulating data to create, read, update, and delete (CRUD).
+In the earlier days, databases were non-existent, and organizations relied on flat-files and spreadsheets to store data. However, this approach proved inefficient, leading to increased data redundancy and a lack of data concurrency. Recognizing these challenges, the concept of databases and Relational Database Management Systems (RDBMS) was introduced. The primary goal was to minimize data redundancy and enhance the ease of data manipulation. To achieve this, the Structured Query Language (SQL) was developed, offering a powerful toolset for creating, reading, updating, and deleting data (CRUD operations)
 
 ------------------------------------------------------------------------
 ### SQL Data types
 - Number
     1. NUMBER.
-    1. NUMBER(number of digits).
-    1. NUMBER(number of digits, number of digits after floating point).
+    2. NUMBER(number of digits).
+    3. NUMBER(number of digits, number of digits after floating point).
 - Text or Strings
     1. CHAR(number of characters)     -> Doesn't free unused allocated memory for characters.
     1. VARCHAR2(number of characters) -> free unused allocated memory.
@@ -92,7 +91,7 @@ Use the following command to delete a table.
   ``` SQL
       CREATE TABLE dept(
         dno NUMBER PRIMARY KEY,
-        dname VARCHAR2(10),
+        dname VARCHAR2(10)
       );
       ALTER TABLE dept
       ADD location VARCHAR2(20);
@@ -140,7 +139,7 @@ Use the following command to delete a table.
     ```
     ex:
     ``` SQL
-    -- id , name, address, email, age
+    -- id, name, address, email, age
         INSERT INTO users 
         VALUES(1, 'mazen mohamed', 'ismailia','mazen@gmail.com', 19);
         INSERT INTO users(id, name, email, age)
