@@ -1,14 +1,17 @@
 # General III Session
 
-## [Session Recording](https://cisuezedu-my.sharepoint.com/:v:/g/personal/ugs_55542_ci_suez_edu_eg/Ebw0cdKACHVMry1DXxLO4VUBz_c-brOkHPhc7h4kgIU-kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Xtacp6)
+## [Session Recording](https://cisuezedu-my.sharepoint.com/:v:/g/personal/ugs_55542_ci_suez_edu_eg/Ebw0cdKACHVMry1DXxLO4VUBz_c-brOkHPhc7h4kgIU-kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=O6rXwV)
 
 ## Table of Contents
 
-- [Frequency Array](#frequency-array)
-- [Prefix Sum & Suffix Sum](#prefix-sum)
-- [Prefix Sum 2D](#prefix-sum-2d)
-- [Difference Array or Partial Sum](#difference-array)
-- [Partial Sum 2D](#partial-sum-2d)
+- [General III Session](#general-iii-session)
+  - [Session Recording](#session-recording)
+  - [Table of Contents](#table-of-contents)
+    - [Frequency Array](#frequency-array)
+    - [Prefix Sum](#prefix-sum)
+    - [Prefix Sum 2D](#prefix-sum-2d)
+    - [Difference Array](#difference-array)
+    - [Partial Sum 2D](#partial-sum-2d)
 
 ### Frequency Array
 

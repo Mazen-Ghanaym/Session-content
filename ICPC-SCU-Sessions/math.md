@@ -1,11 +1,14 @@
 # Math
 
-## [Session Record](https://cisuezedu-my.sharepoint.com/:v:/g/personal/ugs_55542_ci_suez_edu_eg/ETkNBvT0NrdLpS2NGMgDLEgBWsiXZvrDB1I5lHl3iFZDRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SGiPg8)
+## [Session Record](https://cisuezedu-my.sharepoint.com/:v:/g/personal/ugs_55542_ci_suez_edu_eg/ETkNBvT0NrdLpS2NGMgDLEgBWsiXZvrDB1I5lHl3iFZDRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DU2nUz)
 
 ## Table of Contents
 
-1. [Session Content](#session-content)
-2. [Problems](#problems)
+- [Math](#math)
+  - [Session Record](#session-record)
+  - [Table of Contents](#table-of-contents)
+  - [Session Content](#session-content)
+  - [Problems](#problems)
 
 ## Session Content
 
